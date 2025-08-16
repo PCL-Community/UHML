@@ -1,0 +1,21 @@
+.greeting { /* 引用别名 */
+  font-family: "Microsoft Yahei UI";
+  font-size: "20";
+  foreground: "#00FF00";
+}
+/2 { 
+/* 使用斜杠加上id也可以直接引用    */
+  background: "rgba(0, 0, 0, 0.3)";
+  border-radius: "20px";
+}
+.image {
+  source: "https://example.com/image.png"
+}
+
+/*
+  CaSS 与 CSS 的主要区别在于：
+    属性值必须加引号
+    使用 alias 别名代替 class
+    id 不必与主文件一致
+    可以使用斜杠法直接引用 id
+*/

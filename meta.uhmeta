@@ -1,0 +1,7 @@
+<uhmeta>
+  <name>homepage</name>
+  <license>MIT</license>
+  <author>ur_name</author>
+  <email>ur_name@example.com</email>
+  <custom alias="custom_field">ur custom field</custom>
+</uhmeta>

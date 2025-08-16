@@ -1,0 +1,16 @@
+<uhml> <!-- 根 -->
+  <loader> <!-- 定义加载器 -->
+    <define continous="true"/> <!-- 连续加载 -->
+    <define order="increase"/>  <!-- 用 id 从小到大的顺序加载 -->
+    <meta> <!-- 元数据 -->
+      <filesource alias="metadata">meta.uhmeta</filesource> <!-- 元数据文件源 -->
+    </meta>
+  </loader>
+  <card id="0"> <!-- 卡片，文件的基本单元 -->
+    <filesource alias="card">0.card</filesource> <!-- 卡片实现源 -->
+    <filesource alias="cass">0.CaSS</filesource> <!-- 卡片样式源 -->
+  </card>
+  <card id="1">
+    <filesource alias="card">1.card</filesource> <!-- 卡片内容简单时，可以不使用 CaSS -->
+  </card>
+</uhml>

@@ -1,0 +1,2 @@
+<text font-family="Microsoft Yahei UI" font-size=12>.card文件的根组件也可以是别的东西！这样它的parent就会是窗口！
+</text> <!-- 直接设置属性  -->

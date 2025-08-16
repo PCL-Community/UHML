@@ -1,0 +1,6 @@
+<card id="0" alias="/">
+  <text id="1" alias="greeting">Hello world!</text>
+  <panel id="2">
+    <img id="3" alias="image"/>    <!-- 这里不同于 html，所有标签必须闭合！ -->
+  </panel>
+</card>
